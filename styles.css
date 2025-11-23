@@ -117,7 +117,7 @@ header.scrolled {
   display: flex;
   align-items: center;
   color: var(--white);
-  background: url("Images/Fotos Flammkuchen/© FKP_Flammkuchen_Assets_Original_Flamm_Decor-24.jpg") center/cover;
+  background: url("assets/hero-flammkuchen.jpg") center/cover;
 }
 
 .hero-overlay {
@@ -234,7 +234,7 @@ section {
 .about-image {
   min-height: 320px;
   border-radius: var(--radius);
-  background: url("Images/Fotos Flammkuchen/_1055540.jpg") center/cover;
+  background: url("assets/about-flammkuchen.jpg") center/cover;
 }
 
 .section-intro {
