@@ -117,21 +117,30 @@ header.scrolled {
   display: flex;
   align-items: center;
   color: var(--white);
-  background-image: url("assets/hero-flammkuchen.jpg");
-  background-position: center 45%;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 45%;
+  z-index: 0;
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
   background: linear-gradient(115deg, rgba(21, 10, 4, 0.58), rgba(62, 28, 17, 0.24));
+  z-index: 1;
 }
 
 .hero-content {
   position: relative;
   padding: 5rem 0 4rem;
+  z-index: 2;
 }
 
 .hero h1 {
@@ -521,8 +530,11 @@ textarea:focus {
 
 @media (max-width: 768px) {
   .hero {
-    background-size: cover;
-    background-position: center;
+    min-height: 80vh;
+  }
+
+  .hero-bg {
+    object-position: center;
   }
 
   .nav-links {
