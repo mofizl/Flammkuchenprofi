@@ -119,15 +119,7 @@ header.scrolled {
   align-items: center;
   color: var(--white);
   overflow: hidden;
-  background: none !important;
-}
-
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
   background: url("assets/hero-flammkuchen.jpg") center 45% / cover no-repeat;
-  z-index: 0;
 }
 
 .hero-overlay {
@@ -532,9 +524,6 @@ textarea:focus {
   .hero {
     min-height: 80vh;
     height: 80vh;
-  }
-
-  .hero::before {
     background-position: center;
   }
 
