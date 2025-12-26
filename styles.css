@@ -117,7 +117,10 @@ header.scrolled {
   display: flex;
   align-items: center;
   color: var(--white);
-  background: url("assets/hero-flammkuchen.jpg") center 45% / 100% auto no-repeat;
+  background-image: url("assets/hero-flammkuchen.jpg");
+  background-position: center 45%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 .hero-overlay {
@@ -517,6 +520,11 @@ textarea:focus {
 }
 
 @media (max-width: 768px) {
+  .hero {
+    background-size: cover;
+    background-position: center;
+  }
+
   .nav-links {
     position: fixed;
     top: 70px;
