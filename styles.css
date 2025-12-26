@@ -118,6 +118,7 @@ header.scrolled {
   align-items: center;
   color: var(--white);
   overflow: hidden;
+  background: none !important;
 }
 
 .hero-bg {
@@ -127,6 +128,8 @@ header.scrolled {
   height: 100%;
   object-fit: cover;
   object-position: center 45%;
+  display: block;
+  max-width: none;
   z-index: 0;
 }
 
