@@ -7,7 +7,7 @@ const form = document.getElementById('anfrage-form');
 
 // Update copyright year
 if (currentYear) {
-  currentYear.textContent = new Date().getFullYear();
+  currentYear.textContent = '2026';
 }
 
 // Mobile navigation toggle

@@ -117,7 +117,7 @@ header.scrolled {
   display: flex;
   align-items: center;
   color: var(--white);
-  background: url("assets/hero-flammkuchen.jpg") center 45% / 100% auto;
+  background: url("assets/hero-flammkuchen.jpg") center 45% / 100% auto no-repeat;
 }
 
 .hero-overlay {
