@@ -119,7 +119,7 @@ header.scrolled {
   align-items: center;
   color: var(--white);
   overflow: hidden;
-  background: #1f140f;
+  background: #1f140f url("assets/hero-flammkuchen.jpg") center 45% / cover no-repeat;
 }
 
 .hero-bg {
