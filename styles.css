@@ -122,15 +122,11 @@ header.scrolled {
   background: none !important;
 }
 
-.hero-bg {
+.hero::before {
+  content: "";
   position: absolute;
   inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center 45%;
-  display: block;
-  max-width: none;
+  background: url("assets/hero-flammkuchen.jpg") center 45% / cover no-repeat;
   z-index: 0;
 }
 
@@ -538,8 +534,8 @@ textarea:focus {
     height: 80vh;
   }
 
-  .hero-bg {
-    object-position: center;
+  .hero::before {
+    background-position: center;
   }
 
   .nav-links {
